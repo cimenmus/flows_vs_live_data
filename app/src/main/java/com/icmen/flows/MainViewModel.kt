@@ -11,6 +11,8 @@ import kotlinx.coroutines.launch
 class MainViewModel : ViewModel() {
 
     /**
+     * https://www.youtube.com/watch?v=6Jc6-INantQ
+     *
      * Cold flow: Do not emit anything values even if there is no collector. (Flow build edilip calıstırılmaz) Flow and LiveData are cold flow(state holders)
      * Hot flow: Keep emitting values even if there are no collectors. StateFlow and Shared flow are hot flows
      */
