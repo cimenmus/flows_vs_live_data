@@ -12,6 +12,8 @@ class MainViewModel : ViewModel() {
 
     /**
      * https://www.youtube.com/watch?v=6Jc6-INantQ
+     * https://medium.com/@musticmen/kotlin-cheatsheet-6-flows-50906c521d17
+     * https://medium.com/@musticmen/kotlin-cheatsheet-7-flows-vs-livedata-39c246f60ab1
      *
      * Cold flow: Do not emit anything values even if there is no collector. (Flow build edilip calıstırılmaz) Flow and LiveData are cold flow(state holders)
      * Hot flow: Keep emitting values even if there are no collectors. StateFlow and Shared flow are hot flows
